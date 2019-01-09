@@ -1,9 +1,9 @@
 package edu.vccs.email.ash28520.lecture;
 
 /**
- * @author ash
+ * @author Austin Henshaw
  */
-public class Square {
+public class Square extends Shape implements Centered {
    private double side;
 
    public Square() {
@@ -29,4 +29,9 @@ public class Square {
           "side=" + side +
           '}';
    }
+   public double getArea() {
+      return side * side;
+   }
 }
+
+

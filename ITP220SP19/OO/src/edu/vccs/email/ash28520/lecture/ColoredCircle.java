@@ -1,5 +1,8 @@
 package edu.vccs.email.ash28520.lecture;
 
+/**
+ * @author Austin Henshaw
+ */
 public class ColoredCircle extends Circle {
    private String color;
 

@@ -3,7 +3,7 @@ package edu.vccs.email.ash28520.lecture;
 /**
  * @author Austin Henshaw
  */
-public class Circle {
+public class Circle extends Shape implements Centered {
    private double radius;
 
    public Circle() {
@@ -32,4 +32,8 @@ public class Circle {
       this.radius = radius;
    }}
 
+   @Override
+   public double getArea() {
+      return Math.PI * radius * radius;
+   }
 }
