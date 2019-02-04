@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class Grid extends JFrame {
    private static final int ROWS = 3;
    private static final int COLS = 4;
-   private JButton[] buttons = new JButton[ROWS * COLS];
+    JButton[] buttons = new JButton[ROWS * COLS];
    private JPanel[] panels = new JPanel[ROWS * COLS];
 
    public static void main(String[] args) {
